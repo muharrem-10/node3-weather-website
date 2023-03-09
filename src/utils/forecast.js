@@ -15,7 +15,7 @@ const forecast = (latitude,longitude, callback) => {
             humidity = body.current.humidity,
             wind_speed = body.current.wind_speed
             callback(undefined, "The humidity is %"+ humidity +
-                ".\nThe weather is "+description+".it is currently "+temperature+" degrees out.İt feels like "+fTemperature+" degrees out\n"+
+                ".\n The weather is "+description+".it is currently "+temperature+" degrees out.İt feels like "+fTemperature+" degrees out\n"+
                     "The wind speed is "+ wind_speed)
         }
     })
